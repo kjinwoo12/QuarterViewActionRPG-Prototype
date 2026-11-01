@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &2800000
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rr0.160_0.200_0.050_0.50_0.00_True
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 4
+  m_Width: 25
+  m_Height: 30
+  m_CompleteImageSize: 3000
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 0
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 3000
+  _typelessdata: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dadada08d9d9d96dd9d9d9b0d8d8d8cbd8d8d8ccd7d7d7ccd7d7d7ccd6d6d6ccd6d6d6ccd5d5d5ccd4d4d4ccd4d4d4cbd3d3d3b0d3d3d36dd2d2d208000000000000000000000000000000000000000000000000000000000000000000000000dcdcdc51dbdbdbe6dadadaffdadadaffd9d9d9ffd9d9d9ffd8d8d8ffd8d8d8ffd7d7d7ffd7d7d7ffd6d6d6ffd5d5d5ffd5d5d5ffd4d4d4ffd4d4d4ffd3d3d3e6d3d3d35100000000000000000000000000000000000000000000000000000000dddddd4fddddddffdcdcdcffdcdcdcffdbdbdbffdadadaffdadadaffd9d9d9ffd9d9d9ffd8d8d8ffd8d8d8ffd7d7d7ffd6d6d6ffd6d6d6ffd5d5d5ffd5d5d5ffd4d4d4ffd4d4d4ffd3d3d34f0000000000000000000000000000000000000000dfdfdf01dededee1dededeffddddddffddddddffdcdcdcffdbdbdbffdbdbdbffdadadaffdadadaffd9d9d9ffd9d9d9ffd8d8d8ffd7d7d7ffd7d7d7ffd6d6d6ffd6d6d6ffd5d5d5ffd5d5d5ffd4d4d4e1d4d4d40100000000000000000000000000000000e0e0e064dfdfdfffdfdfdfffdededeffdededeffddddddffdcdcdcffdcdcdcffdbdbdbffdbdbdbffdadadaffdadadaffd9d9d9ffd9d9d9ffd8d8d8ffd7d7d7ffd7d7d7ffd6d6d6ffd6d6d6ffd5d5d5ffd5d5d56400000000000000000000000000000000e1e1e1a4e0e0e0ffe0e0e0ffdfdfdfffdfdfdfffdededeffddddddffddddddffdcdcdcffdcdcdcffdbdbdbffdbdbdbffdadadaffdadadaffd9d9d9ffd8d8d8ffd8d8d8ffd7d7d7ffd7d7d7ffd6d6d6ffd6d6d6a400000000000000000000000000000000e2e2e2bce1e1e1ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdfdfdfffdededeffddddddffddddddffdcdcdcffdcdcdcffdbdbdbffdbdbdbffdadadaffd9d9d9ffd9d9d9ffd8d8d8ffd8d8d8ffd7d7d7ffd7d7d7bc00000000000000000000000000000000e3e3e3bde2e2e2ffe2e2e2ffe1e1e1ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdededeffdededeffddddddffddddddffdcdcdcffdcdcdcffdbdbdbffdadadaffdadadaffd9d9d9ffd9d9d9ffd8d8d8ffd8d8d8bd00000000000000000000000000000000e4e4e4bde3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe1e1e1ffe0e0e0ffdfdfdfffdfdfdfffdededeffdededeffddddddffddddddffdcdcdcffdcdcdcffdbdbdbffdadadaffdadadaffd9d9d9ffd9d9d9bd00000000000000000000000000000000e5e5e5bde4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdfdfdfffdededeffdededeffddddddffddddddffdcdcdcffdbdbdbffdbdbdbffdadadaffdadadabd00000000000000000000000000000000e6e6e6bde5e5e5ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdfdfdfffdededeffdededeffddddddffdcdcdcffdcdcdcffdbdbdbffdbdbdbbd00000000000000000000000000000000e7e7e7bde6e6e6ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe1e1e1ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdfdfdfffdededeffddddddffddddddffdcdcdcffdcdcdcbd00000000000000000000000000000000e8e8e8bde7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdfdfdfffdededeffddddddffddddddbd00000000000000000000000000000000e9e9e9bde9e9e9ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe1e1e1ffe0e0e0ffe0e0e0ffdfdfdfffdededeffdededebd00000000000000000000000000000000eaeaeabdeaeaeaffe9e9e9ffe8e8e8ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe1e1e1ffe0e0e0ffdfdfdfffdfdfdfbd00000000000000000000000000000000ebebebbdebebebffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1ffe0e0e0ffe0e0e0bd00000000000000000000000000000000ecececbdecececffebebebffeaeaeaffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2ffe2e2e2ffe1e1e1bd00000000000000000000000000000000edededbdedededffecececffecececffebebebffeaeaeaffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe8e8e8ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3ffe3e3e3ffe2e2e2bd00000000000000000000000000000000eeeeeebdeeeeeeffedededffedededffecececffebebebffebebebffeaeaeaffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4ffe4e4e4ffe3e3e3bd00000000000000000000000000000000efefefbcefefefffeeeeeeffeeeeeeffedededffecececffecececffebebebffebebebffeaeaeaffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5ffe5e5e5ffe4e4e4bc00000000000000000000000000000000f0f0f0a4f0f0f0ffefefefffefefefffeeeeeeffedededffedededffecececffecececffebebebffebebebffeaeaeaffeaeaeaffe9e9e9ffe8e8e8ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e6ffe6e6e6ffe5e5e5a400000000000000000000000000000000f1f1f164f1f1f1fff0f0f0fff0f0f0ffefefefffeeeeeeffeeeeeeffedededffedededffecececffecececffebebebffebebebffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe8e8e8ffe7e7e7ffe7e7e7ffe6e6e66400000000000000000000000000000000f2f2f201f2f2f2e1f1f1f1fff1f1f1fff0f0f0fff0f0f0ffefefefffeeeeeeffeeeeeeffedededffedededffecececffecececffebebebffeaeaeaffeaeaeaffe9e9e9ffe9e9e9ffe8e8e8ffe8e8e8e1e7e7e7010000000000000000000000000000000000000000f3f3f34ff2f2f2fff2f2f2fff1f1f1fff1f1f1fff0f0f0ffefefefffefefefffeeeeeeffeeeeeeffedededffedededffecececffecececffebebebffeaeaeaffeaeaeaffe9e9e9ffe9e9e94f00000000000000000000000000000000000000000000000000000000f3f3f351f3f3f3e6f2f2f2fff2f2f2fff1f1f1fff0f0f0fff0f0f0ffefefefffefefefffeeeeeeffeeeeeeffedededffedededffecececffebebebffebebebe6eaeaea51000000000000000000000000000000000000000000000000000000000000000000000000f4f4f408f3f3f36df3f3f3b0f2f2f2cbf1f1f1ccf1f1f1ccf0f0f0ccf0f0f0ccefefefccefefefcceeeeeecceeeeeecbedededb0ececec6dececec0800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!213 &343428252651358984
+Sprite:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rr0.160_0.200_0.050_0.50_0.00_True
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 25
+    height: 30
+  m_Offset: {x: 0, y: -15}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 128
+  m_Pivot: {x: 0.5, y: 0}
+  m_Extrude: 0
+  m_PackingTag: 
+  m_RenderDataKey:
+    2ee6446740bc48c41a087d1a177a373d: 343428252651358984
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 4
+    texture: {fileID: 2800000}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300y
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 0000c8bd0000703e000000000000c83d0000703e000000000000c8bd00000000000000000000c83d00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    m_BlendShapes:
+      vertices: []
+      shapes: []
+      channels: []
+      fullWeights: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 25
+      height: 30
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 3072
+    uvTransform: {x: 128, y: 12.5, z: 128, w: 0}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 4
+    texture: {fileID: 2800000}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300y
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 0000c8bd0000703e000000000000c83d0000703e000000000000c8bd00000000000000000000c83d00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    m_BlendShapes:
+      vertices: []
+      shapes: []
+      channels: []
+      fullWeights: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 25
+      height: 30
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 3072
+    uvTransform: {x: 128, y: 12.5, z: 128, w: 0}
+    downscaleMultiplier: 1
+  m_PhysicsShape: []
+  m_Bones: []
+  m_ScriptableObjects: []
+  m_SpriteID: 

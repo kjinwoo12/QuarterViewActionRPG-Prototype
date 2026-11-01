@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4043a937f59740639f0da3363e28a337, type: 3}
+  m_Name: reflex_wire
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Data.CyberwareData
+  _id: reflex_wire
+  _displayName: "\uBC18\uC0AC \uC2E0\uACBD\uB9DD"
+  _slot: {fileID: 11400000, guid: 9deddf853692c16458207d5abd2b7afd, type: 2}
+  _price: 650
+  _load: 2
+  _description: "\uCC99\uC218\uB97C \uB530\uB77C \uAE50 \uBCF4\uC870 \uC2E0\uACBD. \uAD6C\uB974\uAE30\uAC00 \uBE68\uB9AC \uB2E4\uC2DC \uCDA9\uC804\uB41C\uB2E4."
+  _starter: 0
+  _stats:
+  - Key: rollingCooldown
+    Value: -0.3
+  - Key: moveSpeed
+    Value: 0.05
+  _gimmick: 
+  _gimmickParams: []

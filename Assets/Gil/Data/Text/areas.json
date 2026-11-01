@@ -1,0 +1,16 @@
+{
+  "areas": [
+    { "id": "clinic", "name": "마고의 정비소", "subtitle": "하층 7구역 · 무허가 의체 시술소" },
+    { "id": "market", "name": "그림자 장터",   "subtitle": "운종가 아래, 기록 밖의 사람들이 모이는 곳" },
+    {
+      "id": "alley",
+      "name": "7구역 뒷골목",
+      "subtitle": "황실 경비 로봇이 순찰하는 비등록자들의 지름길",
+      "waves": [
+        { "enemies": [ { "id": "guard_bot", "count": 3 } ] },
+        { "enemies": [ { "id": "drone", "count": 2 }, { "id": "guard_bot", "count": 1 } ] },
+        { "enemies": [ { "id": "riot_bot", "count": 1 } ] }
+      ]
+    }
+  ]
+}

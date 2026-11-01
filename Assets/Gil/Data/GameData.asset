@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4770bb423d46269689e4a8f918136c, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Data.GameData
+  _player: {fileID: 11400000, guid: f84b28afc0fcd4d4d8fe35ab74ef8efb, type: 2}
+  _enemies:
+  - {fileID: 11400000, guid: 502de33cfe7b4a84b9a133e73c118b5f, type: 2}
+  - {fileID: 11400000, guid: 546f115073a64f7448f2f57b9ab27d51, type: 2}
+  - {fileID: 11400000, guid: 69cc6324b7ead714db94dba5be5aa089, type: 2}
+  _items:
+  - {fileID: 11400000, guid: 2956135f92354f8438aa94aa222f1636, type: 2}
+  - {fileID: 11400000, guid: f190d27e09389c345a02734766383dc3, type: 2}
+  _shops:
+  - {fileID: 11400000, guid: 25e5cfcb30a795f49965c09812abae9c, type: 2}
+  _cyberSlots:
+  - {fileID: 11400000, guid: 0033163adc2f1cd41ad43df95f781b8c, type: 2}
+  - {fileID: 11400000, guid: 9deddf853692c16458207d5abd2b7afd, type: 2}
+  - {fileID: 11400000, guid: 8a663d33058460747a020604079677eb, type: 2}
+  - {fileID: 11400000, guid: 499a48a8b8a6dd94db44bec6b4a16df3, type: 2}
+  - {fileID: 11400000, guid: edaabbd1d8f58fe4cafa5c75b669bac1, type: 2}
+  _cyberware:
+  - {fileID: 11400000, guid: 17d19b06962d9d24781018999669b1bf, type: 2}
+  - {fileID: 11400000, guid: f86de60e0fc29d64ea5517fe63681075, type: 2}
+  - {fileID: 11400000, guid: 09c726d2ee3fa614d983a3171ee3d2b3, type: 2}
+  - {fileID: 11400000, guid: c76675093bd577c4599cc99d9de27b95, type: 2}
+  - {fileID: 11400000, guid: c50cd532374d09748bc330b74ec66516, type: 2}
+  - {fileID: 11400000, guid: 702014b4ab34ab142b2e74a42b376e93, type: 2}
+  - {fileID: 11400000, guid: 09c6b30a244fcda4da243283bb3132e0, type: 2}
+  - {fileID: 11400000, guid: 7f8251cf98d64ea4aa94bec60e043d96, type: 2}
+  - {fileID: 11400000, guid: 763c0ff993c68c2498bd9b3aae775ea2, type: 2}
+  - {fileID: 11400000, guid: 146b70c08aeb41846b5962cbf25341d6, type: 2}
+  _quests: {fileID: 4900000, guid: b1db5b07a2f747948910fd24e77db72a, type: 3}
+  _dialogues: {fileID: 4900000, guid: d248779ba2aee5040a1e32bb5c991f1e, type: 3}
+  _npcs: {fileID: 4900000, guid: 88f0469a3bb1b4f41acadc066b60bf12, type: 3}
+  _areas: {fileID: 4900000, guid: 188a1297a6ae7f8449e8b0be7d4d417f, type: 3}

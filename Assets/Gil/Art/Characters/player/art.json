@@ -1,0 +1,93 @@
+{
+  "_comment": "주인공 Vita(VRoid CC0 + Mixamo 동작). 칸 96px, 줄 S..SE. 원본: sprites/protagonist/v3_vita",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "pixelsPerUnit": 40,
+  "pivotX": 0.5,
+  "pivotY": 0.25,
+  "height": 1.25,
+  "brightness": 0.82,
+  "directions": [
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE",
+    "E",
+    "SE"
+  ],
+  "layout": "rows",
+  "clips": {
+    "idle": {
+      "sheet": "idle",
+      "fps": 10,
+      "loop": true
+    },
+    "run": {
+      "sheet": "run",
+      "fps": 10,
+      "loop": true
+    },
+    "air": {
+      "sheet": "air",
+      "fps": 10,
+      "loop": true
+    },
+    "jab": {
+      "sheet": "jab",
+      "fps": 10,
+      "loop": false
+    },
+    "straight": {
+      "sheet": "straight",
+      "fps": 10,
+      "loop": false
+    },
+    "spin_kick": {
+      "sheet": "spin_kick",
+      "fps": 10,
+      "loop": false
+    },
+    "rolling": {
+      "sheet": "rolling",
+      "fps": 10,
+      "loop": false
+    },
+    "vault": {
+      "sheet": "vault",
+      "fps": 10,
+      "loop": false
+    },
+    "climb": {
+      "sheet": "climb",
+      "fps": 10,
+      "loop": false
+    },
+    "plunge": {
+      "sheet": "plunge",
+      "fps": 10,
+      "loop": false
+    },
+    "land": {
+      "sheet": "land",
+      "fps": 10,
+      "loop": false
+    },
+    "overdrive": {
+      "sheet": "overdrive",
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "sheet": "hurt",
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "sheet": "die",
+      "fps": 10,
+      "loop": false
+    }
+  }
+}

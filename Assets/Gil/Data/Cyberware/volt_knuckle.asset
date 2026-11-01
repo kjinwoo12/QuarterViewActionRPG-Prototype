@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4043a937f59740639f0da3363e28a337, type: 3}
+  m_Name: volt_knuckle
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Data.CyberwareData
+  _id: volt_knuckle
+  _displayName: "\uC804\uAE30 \uB108\uD074"
+  _slot: {fileID: 11400000, guid: 8a663d33058460747a020604079677eb, type: 2}
+  _price: 800
+  _load: 3
+  _description: "\uC8FC\uBA39\uBF08\uC5D0 \uC2EC\uC740 \uCD95\uC804 \uCF54\uC77C. \uB54C\uB9B4 \uB54C\uB9C8\uB2E4 \uC77C\uC815 \uD655\uB960\uB85C \uADFC\uCC98 \uC801\uC5D0\uAC8C \uAC10\uC804\uC774 \uD284\uB2E4."
+  _starter: 0
+  _stats:
+  - Key: attack
+    Value: 2
+  _gimmick: chain_shock
+  _gimmickParams:
+  - Key: chance
+    Value: 0.35
+  - Key: radius
+    Value: 3.5
+  - Key: multiplier
+    Value: 0.6

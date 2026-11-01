@@ -1,0 +1,25 @@
+# 텍스트 정규화
+* text=auto
+
+# Unity YAML: 줄 끝 통일 + 병합 시 Unity 머지 툴 사용 가능
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.mat       text eol=lf merge=unityyamlmerge
+*.anim      text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf
+*.cs        text diff=csharp
+*.json      text
+*.md        text
+
+# 바이너리
+*.png binary
+*.jpg binary
+*.psd binary
+*.fbx binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.ttf binary
+*.otf binary

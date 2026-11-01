@@ -1,0 +1,94 @@
+// 대화 데이터.
+// speaker: NPC id(npcs.json) 또는 "player". 
+// branches: 대사 없이 조건으로만 분기하는 노드. 위에서부터 첫 번째로 참인 조건으로 간다.
+// actions / condition 문법은 docs/DATA_GUIDE.md 참고.
+{
+  "dialogues": [
+    {
+      "id": "mago",
+      "start": "route",
+      "nodes": [
+        { "id": "route", "branches": [
+          { "condition": "quest_done:first_hunt", "next": "after_hunt" },
+          { "condition": "flag:met_mago", "next": "checkup" },
+          { "next": "intro_1" }
+        ]},
+
+        { "id": "intro_1", "speaker": "mago", "text": "눈 떴네. 박동… 안정적이야. 축하해, 넌 오늘부로 두 번째 인생이다.", "next": "intro_2" },
+        { "id": "intro_2", "speaker": "player", "text": "…여기가 어디죠? 분명 골목에서 쓰러졌는데.", "next": "intro_3" },
+        { "id": "intro_3", "speaker": "mago", "text": "하층 7구역, 내 정비소. 병원은 등록 시민만 받잖아. 기록에도 없는 사람을 고쳐 주는 데는 여기뿐이야.", "next": "intro_4" },
+        { "id": "intro_4", "speaker": "mago", "text": "네 원래 심장은 이미 멈추기 직전이었어. 그래서 의체 심장을 넣었지. 황실 근위대 폐기품을 손본 거라 출력은 보장해.", "next": "intro_5" },
+        { "id": "intro_5", "speaker": "mago", "text": "궁금한 거 있으면 물어봐.", "choices": [
+          { "text": "…왜 저를 살려 주셨어요?", "next": "why" },
+          { "text": "수술비는… 저 돈 없어요.", "next": "cost" }
+        ]},
+        { "id": "why", "speaker": "mago", "text": "황실은 영생을 독점하고, 우리 같은 비등록자는 기록도 없이 죽어 가. 그게 싫어서 이 일을 해. 이유는 그거면 충분해.", "next": "heart_1" },
+        { "id": "cost", "speaker": "mago", "text": "알아. 대신 일로 갚아. 장터의 문탁이 마침 일손을 찾고 있거든.", "next": "heart_1" },
+        { "id": "heart_1", "speaker": "mago", "text": "그 심장, 격하게 움직일수록 박동이 올라가. 끝까지 차오르면 주먹으로 한 번에 터뜨릴 수 있지. 「과부하」라고 부르자.", "next": "heart_2b" },
+        { "id": "heart_2b", "speaker": "mago", "text": "몸도 가벼워졌을 거야. 달리다 구르면 상자쯤은 넘고, 컨테이너 위로도 뛰어오를 수 있어. 위에서 뛰어내리며 내려찍으면 로봇 장갑도 찌그러지고.", "next": "heart_2" },
+        { "id": "heart_2", "speaker": "mago", "text": "저기 연습용 골격으로 감각부터 익혀. 준비되면 북쪽 문으로 나가서 장터의 문탁을 찾아. 회복약도 챙겨 줄게.",
+          "actions": ["give_item:potion:2", "give_coins:1000", "accept_quest:go_market", "set_flag:met_mago"], "next": "heart_3" },
+        { "id": "heart_3", "speaker": "mago", "text": "용돈도 조금 넣어 뒀어. 돈이 모이면 다시 와. 그 심장이 버티는 만큼 의체를 더 달아 줄게." },
+
+        { "id": "checkup", "speaker": "mago", "text": "왔어? 시술대는 비어 있어.", "choices": [
+          { "text": "의체 시술을 받고 싶어요.", "next": "ripper", "actions": ["open_cyberware"] },
+          { "text": "몸 상태 좀 봐 주세요.", "next": "checkup_heal" },
+          { "text": "다음에 올게요." }
+        ]},
+        { "id": "ripper", "speaker": "mago", "text": "마취는 없어. 비등록자한테 그런 사치는 없거든. …농담이야. 반쯤은." },
+        { "id": "checkup_heal", "speaker": "mago", "text": "몸부터 보자… 됐다, 멀쩡해. 무리하지 마. 그 심장은 하나뿐이니까.",
+          "actions": ["heal_full"], "next": "checkup_hint" },
+        { "id": "checkup_hint", "branches": [
+          { "condition": "quest_active:go_market", "next": "hint_market" },
+          { "condition": "quest_active:first_hunt", "next": "hint_hunt" },
+          { "condition": "quest_ready:first_hunt", "next": "hint_report" },
+          { "next": "hint_none" }
+        ]},
+        { "id": "hint_market", "speaker": "mago", "text": "문탁은 장터 한가운데, 홀로그램 간판 아래에 있어. 북쪽 문으로 나가면 돼." },
+        { "id": "hint_hunt", "speaker": "mago", "text": "뒷골목에 간다며? 경비 로봇은 높은 데를 못 올라와. 몰리면 컨테이너 위로 올라가서 숨 고르고, 드론이 빛을 모으면 구르기로 피해." },
+        { "id": "hint_report", "speaker": "mago", "text": "다 정리했으면 문탁한테 보고하러 가 봐. 기다리고 있을 거야." },
+        { "id": "hint_none", "speaker": "mago", "text": "오늘은 쉬어." },
+
+        { "id": "after_hunt", "speaker": "mago", "text": "살아 돌아왔네. 심장도 멀쩡하고. …이제 진짜 크루가 되려나.", "actions": ["heal_full"] }
+      ]
+    },
+    {
+      "id": "muntak",
+      "start": "route",
+      "nodes": [
+        { "id": "route", "branches": [
+          { "condition": "quest_ready:first_hunt", "next": "report_1" },
+          { "condition": "quest_active:first_hunt", "next": "hint" },
+          { "condition": "quest_done:first_hunt", "next": "after" },
+          { "next": "first_1" }
+        ]},
+
+        { "id": "first_1", "speaker": "muntak", "text": "오, 마고가 말한 새 심장이 너구나. 난 문탁. 이 장터에 없는 건 황실 족보뿐이지.", "next": "first_2" },
+        { "id": "first_2", "speaker": "muntak", "text": "요즘 황실 경비 로봇이 7구역 뒷골목을 순찰해. 장터로 오는 지름길인데, 기록 없는 사람이 걸리면 그대로 끌려가지.", "next": "first_3" },
+        { "id": "first_3", "speaker": "player", "text": "그래서 제가 뭘 하면 되죠?", "next": "first_4" },
+        { "id": "first_4", "speaker": "muntak", "text": "뒷골목 순찰대를 정리해 줘. 경비 로봇 셋, 감시 드론 둘. 그리고 진압 로봇이 하나 붙었다는 소문이 있어. 맨주먹으로 상대할 거면 높은 데를 잘 써.", "choices": [
+          { "text": "맡겨 주세요.", "next": "first_5", "actions": ["accept_quest:first_hunt"] },
+          { "text": "장비부터 볼게요.", "actions": ["accept_quest:first_hunt", "open_shop:muntak_shop"] }
+        ]},
+        { "id": "first_5", "speaker": "muntak", "text": "좋아. 뒷골목 입구는 장터 동쪽 끝이야. 가기 전에 물건 필요하면 말하고." },
+
+        { "id": "hint", "speaker": "muntak", "text": "뒷골목은 동쪽 끝이야. 물건 필요해?", "choices": [
+          { "text": "물건 보여 주세요.", "actions": ["open_shop:muntak_shop"] },
+          { "text": "다녀올게요." }
+        ]},
+
+        { "id": "report_1", "speaker": "muntak", "text": "돌아왔구나! 진압 로봇까지 맨주먹으로? 오늘 밤 장터는 조용하겠네.", "next": "report_2" },
+        { "id": "report_2", "speaker": "muntak", "text": "약속한 보수야. 그리고… 너 같은 사람을 찾는 녀석들이 있어. 황궁에서 도망쳤다는 막내 황자랑, 기록에 없는 아이 하나.",
+          "actions": ["turn_in_quest:first_hunt"], "next": "report_3" },
+        { "id": "report_3", "speaker": "player", "text": "…황자가 비등록자들이랑 같이 다닌다고요?", "next": "report_4" },
+        { "id": "report_4", "speaker": "muntak", "text": "아직 이름도 없는 크루야. 관심 있으면 따라와. 네 그 심장, 거기서라면 쓸모가 많을 거다.",
+          "actions": ["end_demo"] },
+
+        { "id": "after", "speaker": "muntak", "text": "다음 일거리가 생기면 부를게. 물건 필요해?", "choices": [
+          { "text": "물건 보여 주세요.", "actions": ["open_shop:muntak_shop"] },
+          { "text": "괜찮아요." }
+        ]}
+      ]
+    }
+  ]
+}

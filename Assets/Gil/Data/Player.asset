@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c141704c6d464255a3705d1e9d6b9625, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Data.PlayerData
+  _player:
+    MaxHp: 100
+    MoveSpeed: 6
+    Attack: 14
+    Defense: 4
+    CritChance: 0.1
+    CritMultiplier: 1.6
+    HurtInvulnerableTime: 0.45
+    Combo:
+    - Name: jab
+      DamageMultiplier: 0.9
+      Range: 1.6
+      ArcDegrees: 100
+      Windup: 0.06
+      Active: 0.08
+      Recovery: 0.24
+      ComboWindow: 0.22
+      Lunge: 0.5
+      HitStop: 0.035
+    - Name: straight
+      DamageMultiplier: 1.15
+      Range: 1.7
+      ArcDegrees: 100
+      Windup: 0.07
+      Active: 0.08
+      Recovery: 0.26
+      ComboWindow: 0.22
+      Lunge: 0.7
+      HitStop: 0.05
+    - Name: spin_kick
+      DamageMultiplier: 1.9
+      Range: 2.2
+      ArcDegrees: 300
+      Windup: 0.14
+      Active: 0.12
+      Recovery: 0.42
+      ComboWindow: 0
+      Lunge: 1
+      HitStop: 0.09
+    Rolling:
+      Duration: 0.32
+      Distance: 4.4
+      InvulnerableTime: 0.26
+      Cooldown: 0.45
+      StaminaCost: 30
+    Sprint:
+      SpeedMultiplier: 1.6
+      StaminaPerSecond: 20
+    Stamina:
+      Max: 100
+      RegenDelay: 1
+      RegenPerSecond: 25
+    Heart:
+      Max: 100
+      GainPerHit: 9
+      GainPerDamageTaken: 6
+      SkillCost: 100
+      SkillDamageMultiplier: 3.5
+      SkillRadius: 4
+    Parkour:
+      JumpHeight: 1.2
+      VaultMaxHeight: 1.2
+      ClimbMaxHeight: 2.6
+      VaultDuration: 0.34
+      ClimbDuration: 0.36
+      VaultDistance: 2.8
+      Gravity: 32
+      PlungeDamageMultiplier: 2.4
+      PlungeRadius: 2.6
+      PlungeMinHeight: 1.2
+      MeleeHeightTolerance: 0.8

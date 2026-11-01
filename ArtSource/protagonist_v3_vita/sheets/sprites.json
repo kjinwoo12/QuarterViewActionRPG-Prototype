@@ -1,0 +1,83 @@
+{
+ "cell": 96,
+ "fps": 10,
+ "rows": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "pivot_from_bottom_px": 24,
+ "pivot_x_px": 48,
+ "clips": {
+  "idle": {
+   "frames": 34,
+   "source": "idle"
+  },
+  "run": {
+   "frames": 6,
+   "source": "run"
+  },
+  "air": {
+   "frames": 15,
+   "source": "run_jump"
+  },
+  "jab": {
+   "frames": 14,
+   "source": "jab"
+  },
+  "straight": {
+   "frames": 21,
+   "source": "straight"
+  },
+  "spin_kick": {
+   "frames": 21,
+   "source": "spin_kick"
+  },
+  "dash": {
+   "frames": 12,
+   "source": "dash"
+  },
+  "vault": {
+   "frames": 12,
+   "source": "vault"
+  },
+  "climb": {
+   "frames": 39,
+   "source": "climb"
+  },
+  "plunge": {
+   "frames": 22,
+   "source": "roll"
+  },
+  "land": {
+   "frames": 26,
+   "source": "land"
+  },
+  "overdrive": {
+   "frames": 38,
+   "source": "overdrive"
+  },
+  "hurt": {
+   "frames": 5,
+   "source": "hurt"
+  },
+  "die": {
+   "frames": 45,
+   "source": "die"
+  }
+ },
+ "extra_clips": {
+  "dodge_back": 27,
+  "flip_kick": 21,
+  "jump": 20,
+  "slide": 16,
+  "vault2": 13,
+  "wall_flip": 23,
+  "wallrun": 22
+ }
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4043a937f59740639f0da3363e28a337, type: 3}
+  m_Name: impact_legs
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Data.CyberwareData
+  _id: impact_legs
+  _displayName: "\uCC29\uC9C0 \uCDA9\uACA9\uAE30"
+  _slot: {fileID: 11400000, guid: 499a48a8b8a6dd94db44bec6b4a16df3, type: 2}
+  _price: 900
+  _load: 3
+  _description: "\uC815\uAC15\uC774 \uC644\uCDA9\uAE30\uC5D0 \uBAA8\uC740 \uB099\uD558 \uC5D0\uB108\uC9C0\uB97C \uD130\uB728\uB9B0\uB2E4. \uB0B4\uB824\uCC0D\uAE30\uAC00 \uB113\uC5B4\uC9C0\uACE0 \uB9DE\uC740 \uC801\uC774 \uAE30\uC808\uD55C\uB2E4."
+  _starter: 0
+  _stats:
+  - Key: plungeRadius
+    Value: 1
+  - Key: plungeDamage
+    Value: 0.3
+  _gimmick: kinetic_landing
+  _gimmickParams:
+  - Key: stun
+    Value: 1.2

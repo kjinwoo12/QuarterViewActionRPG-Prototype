@@ -1,0 +1,24 @@
+<!--
+  Unity 없이 Gil.Core와 EditMode 테스트를 돌리기 위한 프로젝트.
+  Assets 아래 소스를 그대로 컴파일하므로 Unity Test Runner와 같은 테스트가 CI에서도 돈다.
+  실행: dotnet test tools/Gil.Core.Tests
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Assets/Gil/Core/**/*.cs" />
+    <Compile Include="../../Assets/Gil/Tests/EditMode/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+</Project>

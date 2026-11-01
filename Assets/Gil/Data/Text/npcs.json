@@ -1,0 +1,6 @@
+{
+  "npcs": [
+    { "id": "mago",   "name": "마고", "role": "의체 정비사", "dialogue": "mago",   "color": "#7fd1b9" },
+    { "id": "muntak", "name": "문탁", "role": "거래상",      "dialogue": "muntak", "color": "#d9a441" }
+  ]
+}

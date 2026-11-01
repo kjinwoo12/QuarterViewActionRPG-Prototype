@@ -1,0 +1,27 @@
+{
+  "quests": [
+    {
+      "id": "go_market",
+      "title": "장터로",
+      "description": "마고의 말대로 그림자 장터에 가서 거래상 문탁을 찾자.",
+      "objectives": [
+        { "type": "reach", "target": "market", "label": "그림자 장터 도착" },
+        { "type": "talk",  "target": "muntak", "label": "문탁과 대화" }
+      ],
+      "rewardCoins": 0
+    },
+    {
+      "id": "first_hunt",
+      "title": "첫 사냥",
+      "description": "7구역 뒷골목을 순찰하는 황실 경비 로봇들을 정리하고 문탁에게 보고하자.",
+      "turnInNpc": "muntak",
+      "objectives": [
+        { "type": "kill", "target": "guard_bot", "count": 3, "label": "경비 로봇 처치" },
+        { "type": "kill", "target": "drone",     "count": 2, "label": "감시 드론 처치" },
+        { "type": "kill", "target": "riot_bot",  "count": 1, "label": "진압 로봇 처치" }
+      ],
+      "rewardCoins": 1200,
+      "rewardItems": [ { "id": "hi_potion", "count": 1 } ]
+    }
+  ]
+}

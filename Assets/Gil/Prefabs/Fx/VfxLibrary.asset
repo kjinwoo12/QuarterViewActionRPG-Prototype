@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd033311b65f40edab44eab555c71224, type: 3}
+  m_Name: VfxLibrary
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Combat.VfxLibrary
+  Slash: {fileID: 2610689404822949243, guid: 590e9288d1f847d4ab678ad01b5b67dc, type: 3}
+  Impact: {fileID: 989677861781129633, guid: 22a104152dbe35e4e94633be827c84db, type: 3}
+  Ring: {fileID: 8423470493048916372, guid: d923fb9f18b7046479fbd68567e3883f, type: 3}
+  Dust: {fileID: 3062330267879807089, guid: cbb916493dcde0e458f0ec5946c62ebc, type: 3}
+  Lightning: {fileID: 4617100969006342329, guid: 21b920d8068c76d4ebb8803286387c02, type: 3}
+  PlayerStrike: {r: 1, g: 0.55, b: 0.75, a: 1}
+  HeartRed: {r: 1, g: 0.22, b: 0.32, a: 1}
+  Danger: {r: 1, g: 0.18, b: 0.22, a: 1}
+  Shock: {r: 0.45, g: 0.85, b: 1, a: 1}
+  Gold: {r: 1, g: 0.85, b: 0.3, a: 1}

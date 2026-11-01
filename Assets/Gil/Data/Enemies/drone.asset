@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c0258dccf5463887391ebea418b523, type: 3}
+  m_Name: drone
+  m_EditorClassIdentifier: Gil.Runtime::Gil.Runtime.Data.EnemyData
+  _enemy:
+    Id: drone
+    Name: "\uAC10\uC2DC \uB4DC\uB860"
+    Kind: 1
+    MaxHp: 40
+    Attack: 10
+    Defense: 2
+    MoveSpeed: 2.8
+    AggroRange: 12
+    AttackRange: 8
+    PreferredRange: 6
+    Windup: 0.8
+    AttackDuration: 0.15
+    Recovery: 0.5
+    Cooldown: 1.6
+    StaggerTime: 0.3
+    Poise: 0
+    ProjectileSpeed: 9
+    Coins: 180
+    Color: '#4fd8ff'
